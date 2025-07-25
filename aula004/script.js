@@ -21,7 +21,7 @@ window.alert(`A divisão entre esses dois numeros é = ${divisão}`);
 var num9 = Number.parseInt(window.prompt('Digite um numero'));
 var num10 = Number.parseInt(window.prompt('Digite outro numero'));
 var resto = num9 % num10;
-window.alert(`O resto da divisão entre esses dois numeros é = ${resto}`)
+window.alert(`O resto da divisão entre esses dois numeros é = ${resto}`);
 
 var num11 = Number(window.prompt('Digite um numero inteiro'));
 var num12 = Number(window.prompt('Digite outro numero'));
