@@ -1,0 +1,13 @@
+body{
+    background-color: #8a8a8a8e;
+}
+
+h1{
+    color: #000000;
+    font-size: 50px;
+}
+
+div > p{
+    color: #000000;
+    font-size: 18px;
+}
