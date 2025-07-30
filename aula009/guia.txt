@@ -1,0 +1,4 @@
+Nestes arquivos eu estou praticando os Eventos Dom, como o evento CLICK, MOUSEENTER, MOUSEOUT, entre outros.
+
+DOM ou Document Object Model, permite que nós desenvolvedores possamos manipular os conteudos de um documento HTML ou CSS. 
+A árvore DOM é um modelo de hierarquia que deve ser considerada antes de manipularmos uma página web, e cada página possui sua árvore DOM. Também temos o conceito de PARENTS (pais) e CHILD (filho), muito importante na hora da aplicação dos eventos DOM. 
