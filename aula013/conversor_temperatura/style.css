@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+:root{
+    --corfundo: #0540F2;
+    --corfundo2: #6B98F2;
+    --cortextos: #000000ac;
+    --fontetitulo: "Archivo Black", sans-serif;
+    --fonteparagrafo: "Exo 2", sans-serif;
+}
+
+body{
+    background-color: var(--corfundo);
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 45px;
+    color: #fff;
+    font-family: var(--fontetitulo);
+    font-weight: 200;
+}
+
+.conteudo{
+    width: 500px;
+    margin: 0 auto;
+    background-color: var(--corfundo2);
+    height: 500px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 15px;
+
+}
+.conteudo > p{
+    font-family: var(--fonteparagrafo);
+}
+
+.conteudo > input{
+    margin-bottom: 15px;
+    
+}
+
+
+button{
+    width: 150px;
+    border-radius: 6px;
+    border: none;
+    height: 25px;
+    margin-top: 10px;
+
+}
+
+#resposta > img{
+    border-radius: 200px;
+    width: 350px;
+    margin-left: 75px;
+    margin-top: 30px;
+}
+
+#resposta > p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: var(--fonteparagrafo);
+}
+
+footer{
+    text-align: center;
+    font-size: 20px;
+    background-color: #fff;
+    height: 40px;
+    margin-top: 35px;
+    padding: 30px;
+}
+
+footer > p{
+    font-family: var(--fonteparagrafo);
+
+}
+
