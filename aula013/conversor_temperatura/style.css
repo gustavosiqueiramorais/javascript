@@ -13,8 +13,10 @@
 }
 
 body{
-    background-color: var(--corfundo);
+    background-image: linear-gradient(to bottom, #0540F2, #001a68);
+
 }
+
 
 h1{
     text-align: center;
@@ -43,7 +45,6 @@ h1{
     margin-bottom: 15px;
     
 }
-
 
 button{
     width: 150px;
