@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --corfundo: #260101;
+    --cordiv: #A60321;
+    --cortitulo: #F2055C;
+}
+
+body{
+    background-color: var(--corfundo);
+}
+
+h1{
+    text-align: center;
+    color: var(--cortitulo);
+    margin-top: 40px;
+    font-size: 45px;
+}
+
+.conteudo{
+    width: 500px;
+    height: 400px;
+    background-color: var(--cordiv);
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.conteudo > button{
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    height: 22px;
+    margin-left: 20px;
+}
+
+#resposta > p{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
