@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.conteudo{
+    width: 500px;
+    margin: 0 auto;
+    background-color: gray;
+    height: 400px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#botao{
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 20px;
+}
+
+#resposta > p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
