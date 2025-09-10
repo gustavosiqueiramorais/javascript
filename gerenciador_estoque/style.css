@@ -1,0 +1,123 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --cordefundo: #3C3D40;
+    --cordestaque1: #D7D7D9;
+    --cordestaque2: #9FA3A6;
+    --cordestalhes: #666A73;
+}
+
+body{
+    background-color: var(--cordefundo);
+}
+
+header{
+    width: 400px;
+    margin: 0 auto;
+}
+
+header > h1{
+    text-align: center;
+    color: var(--cordestaque1);
+    margin: 20px;
+}
+
+header > input{
+    margin-left: 120px;
+    padding: 6px;
+    border-radius: 5px;
+    border: none;
+}
+
+.manipulaçao{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: var(--cordestaque2);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.manipulaçao > h2{
+    margin-bottom: 7px;
+}
+
+.manipulaçao > input{
+    border-radius: 6px;
+    margin-bottom: 5px;
+    border: none;
+    padding: 5px;
+    height: 20px;
+
+
+}
+
+.manipulaçao > button{
+    margin-top: 10px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--cordestalhes);
+    color: var(--cordestaque1);
+    transition: all 0.3s ease;
+}
+
+.manipulaçao > button:hover{
+   transform: scale(1.05);
+   cursor: pointer;
+}
+
+#lista{
+    background-color: var(--cordestaque2);
+    margin: 20px;
+    width: 450px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#remover{
+    background-color: var(--cordestaque2);
+    margin: 20px;
+    width: 450px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+#titulo_remover{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+#input_remover{
+    margin-left: 150px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+#botao_remover{
+    margin-left: 190px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 90px;
+    height: 25px;
+}
+
+
+
