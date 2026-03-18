@@ -19,4 +19,15 @@ console.log(data.toTimeString());
 console.log(data.toLocaleDateString());
 console.log(data.toLocaleTimeString());
 
+console.log(data.toLocaleString("pt-BR", {
+    dateStyle: "long"
+}))
 
+let dinheiro = 50
+
+console.log(dinheiro.toLocaleString("pt-BR", {
+    style: "currency",
+    currency: "BRL"
+}))
+
+console.log(new Intl.DateTimeFormat("en-US").format(data));
