@@ -2,6 +2,14 @@ class sayajin{
     constructor(){
         console.log("Virar Sayajin");
     }
+
+    kamehameha(){
+        console.log("KAMEHAMEHAAAAA");
+    }
+
+    voar(){
+        console.log("wooosh");
+    }
 }
 
 const gohan = new sayajin();
@@ -33,3 +41,15 @@ class boxeador{
 let boxeador1 = new boxeador("Myke");
 
 boxeador1.porrada();//Acessando o método
+
+//Criando uma classe usando a herança
+
+class sayajinHibrido extends sayajin{
+    voar(){
+        console.log("fuuuuuu")// Sobrescrevendo um método
+    }
+}
+
+const trunks = new sayajinHibrido();
+
+trunks.kamehameha; //-> A herança permite herdar os métos e atributos da classe selecionada
