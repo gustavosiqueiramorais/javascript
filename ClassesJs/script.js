@@ -53,3 +53,34 @@ class sayajinHibrido extends sayajin{
 const trunks = new sayajinHibrido();
 
 trunks.kamehameha; //-> A herança permite herdar os métos e atributos da classe selecionada
+
+console.log(trunks);
+
+//Usando classes para tratamento de erros.
+
+//Range error
+
+for (contador = 0; contador <= 10; contador++){
+    console.log("Estamos contando...");
+    
+}
+ try {
+    if (contador > 10){
+        throw new RangeError; //Peguei e lancei o erro.
+    }
+} catch (error){
+    if (error instanceof RangeError){ //Tratei o erro capturando ele através do comando instanceof
+        console.log("Valor fora do range permitido");
+    }
+}
+
+//Reference Error
+ try{
+    console.log(variavelInexistente);
+ } catch (error){
+    if(error instanceof ReferenceError){
+        console.log("A variavel não existe");
+    }
+ }
+
+
